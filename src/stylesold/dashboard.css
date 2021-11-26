@@ -1,0 +1,108 @@
+.dash-card-links span {
+  color: #170ac7;
+  margin-top: 20px !important;
+}
+
+.dash-card-links span:hover {
+  color: #1f9110;
+}
+
+.search-header {
+  position: fixed !important;
+  margin-top: 170px !important;
+  background-color: white;
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.search-header .align {
+  text-align: right;
+}
+
+.search-header .col-input {
+  margin-left: 19vh;
+}
+
+.search-header .col-NewOrgButton {
+  margin-left: 7vh;
+}
+
+.button {
+  border: 1px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.row-org {
+  position: fixed !important;
+  -webkit-box-sizing: border-box !important;
+          box-sizing: border-box !important;
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-top: 300px;
+  background-color: white;
+  padding-top: 2% !important;
+  padding-bottom: 2% !important;
+  margin-top: 5% !important;
+}
+
+.row-org .grid-col {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  max-height: 70px;
+  background-color: #318fdb;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: white;
+  margin: 10px;
+  padding: 10px;
+  width: 150px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.row-org .grid-col:first-child {
+  margin-left: 19vh;
+}
+
+.cardSection {
+  margin-top: 300px;
+  margin-left: 19vh;
+  margin-right: 30vh;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@media only screen and (min-width: 1200px) {
+  .align {
+    text-align: right;
+  }
+  .cardSection {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 500px;
+    margin-top: 250px;
+    margin-left: 140px;
+  }
+}
+/*# sourceMappingURL=dashboard.css.map */

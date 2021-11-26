@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,MAAM,CAAA;EAIF,MAAM,EAAC,GAAG,CAAC,KAAK,CAAC,OAAkB;CAEtC",
+    "sources": [
+        "../src/styles/NewProperty.scss"
+    ],
+    "names": [],
+    "file": "NewProperty.css"
+}

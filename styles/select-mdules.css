@@ -1,0 +1,14 @@
+.sm-module {
+  border: 1px solid grey;
+  height: 200px;
+}
+
+.sm-module .sm-card {
+  width: 20vh;
+  height: 8vh;
+  border: 1px solid grey;
+  border-radius: 15px;
+  padding: 5px;
+  margin: 5px;
+}
+/*# sourceMappingURL=select-mdules.css.map */

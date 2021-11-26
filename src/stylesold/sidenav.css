@@ -1,0 +1,72 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav h5 {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  padding-top: 20px;
+  color: white;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  padding-right: 20px;
+  text-align: right;
+  font-size: 25px;
+  color: white;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.sidenav .nav li {
+  list-style-type: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.open {
+  text-align: left;
+  font-size: 35px;
+  margin-left: 0px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+    width: 150px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+  .open {
+    font-size: medium;
+  }
+}
+/*# sourceMappingURL=sidenav.css.map */

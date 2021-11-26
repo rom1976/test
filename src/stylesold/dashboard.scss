@@ -1,0 +1,91 @@
+.dash-card-links{
+    span{ 
+    color:rgb(23, 10, 199);
+    &:hover{
+        color: rgb(31, 145, 16);  
+    } 
+    margin-top: 20px !important;
+
+}} 
+.search-header{
+    position: fixed !important;
+    margin-top: 170px !important; 
+    background-color: white;
+    z-index: 1;
+     display:flex;
+     flex-direction: row; 
+
+     .align{
+         text-align: right;
+     }
+     .col-input{
+         margin-left: 19vh;
+     }
+     .col-NewOrgButton{ 
+        margin-left: 7vh;
+     }
+ 
+ } 
+ .button{
+     border: 1px solid black;
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-end;
+ }
+ 
+ .row-org{
+     position: fixed !important;
+     box-sizing: border-box !important;
+     z-index: 1;
+    display:flex;
+    flex-direction: row;
+    //border: 1px solid black; 
+    padding-top:300px;
+
+     background-color:white;
+     padding-top: 2% !important;
+     padding-bottom: 2% !important;
+     margin-top: 5% !important;
+
+     .grid-col{ 
+      box-sizing: border-box;
+         max-height:70px;
+         background-color:rgb(49, 143, 219);
+         box-shadow : 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        color:white;
+        margin: 10px;
+       // &:not(last-child){
+       //  margin-right:10% !important;
+       //  
+       // }
+         &:first-child{
+             margin-left:19vh;
+         }
+         padding:10px; 
+        width:150px;
+         border-radius: 10px;
+         text-align: center;
+     }
+    }
+
+     .cardSection{
+         margin-top: 300px;
+         margin-left: 19vh;
+         margin-right: 30vh;
+         box-sizing: border-box;
+     }
+         
+@media only screen and (min-width: 1200px) { 
+    .align{
+        text-align: right;
+    }
+    .cardSection{
+               
+                box-sizing: border-box; 
+                width:500px;
+               margin-top: 250px; 
+               margin-left: 140px;
+              // display: flex;
+               //flex-direction:row;
+
+            } }

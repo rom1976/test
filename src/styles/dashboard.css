@@ -1,0 +1,203 @@
+.dash-card-links span {
+  font-size: 12px;
+  color: #170ac7;
+  margin-top: 20px !important;
+}
+
+.dash-card-links span:hover {
+  color: #1f9110;
+}
+
+.button {
+  border: 1px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+@media only screen and (min-width: 725px) {
+  .row-container {
+    background-color: white !important;
+    height: 230px;
+    margin-bottom: 50px;
+  }
+  .row-org {
+    margin-left: 130px;
+    padding-top: 300px;
+    background-color: white;
+    padding-top: 2% !important;
+    padding-bottom: 2% !important;
+    margin-top: 50px !important;
+  }
+  .row-org .grid-col {
+    max-height: 70px;
+    background-color: #318fdb;
+    color: white;
+    padding: 10px;
+    width: 150px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  .row-org .grid-col:first-child {
+    margin-left: 18vh;
+  }
+  .search-header {
+    position: fixed !important;
+    margin-top: 170px !important;
+    background-color: white;
+    z-index: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .search-header .align {
+    text-align: right;
+  }
+  .search-header .col-input {
+    margin-left: 19vh;
+  }
+  .search-header .col-NewOrgButton {
+    margin-left: 7vh;
+  }
+  .align {
+    text-align: right;
+  }
+  .cardSection {
+    margin-top: 50px;
+    margin-left: 100px;
+  }
+}
+
+@media only screen and (max-width: 724px) {
+  .row-container {
+    background-color: white;
+    height: 230px;
+    margin-bottom: 50px;
+  }
+  .row-org {
+    margin-left: 130px;
+    padding-top: 300px;
+    background-color: white;
+    padding-top: 2% !important;
+    padding-bottom: 2% !important;
+    margin-top: 50px !important;
+  }
+  .row-org .grid-col {
+    max-height: 70px;
+    background-color: #318fdb;
+    color: white;
+    padding: 10px;
+    width: 150px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  .row-org .grid-col:first-child {
+    margin-left: 18vh;
+  }
+  .search-header {
+    position: fixed !important;
+    margin-top: 170px !important;
+    background-color: white;
+    z-index: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .search-header .align {
+    text-align: right;
+  }
+  .search-header .col-input {
+    margin-left: 19vh;
+  }
+  .search-header .col-NewOrgButton {
+    margin-left: 7vh;
+  }
+  .align {
+    text-align: right;
+  }
+  .cardSection {
+    margin-top: 250px;
+    margin-left: 100px;
+  }
+}
+
+@media only screen and (min-width: 1224px) {
+  .row-container {
+    position: fixed !important;
+    padding-top: 50px !important;
+    margin-top: 50px !important;
+    background-color: white !important;
+    z-index: 1;
+    height: 200px;
+  }
+  .row-org {
+    position: fixed !important;
+    z-index: 2;
+    margin-left: 130px !important;
+    padding-top: 220px;
+    background-color: white;
+    padding-top: 2% !important;
+    margin-top: 10px !important;
+  }
+  .row-org .grid-col {
+    max-height: 70px;
+    background-color: #318fdb;
+    color: white;
+    padding: 10px;
+    width: 150px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  .row-org .grid-col:first-child {
+    margin-left: 18vh;
+  }
+  .search-header {
+    position: fixed !important;
+    margin-top: 170px !important;
+    background-color: white;
+    z-index: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .search-header .align {
+    text-align: right;
+  }
+  .search-header .col-input {
+    margin-left: 19vh;
+  }
+  .search-header .col-NewOrgButton {
+    margin-left: 7vh;
+  }
+  .align {
+    text-align: right;
+  }
+  .cardSection {
+    margin-top: 250px;
+    margin-left: 70px;
+  }
+}
+
+.ui.dimmer {
+  background: rgba(230, 226, 226, 0.2);
+}
+/*# sourceMappingURL=dashboard.css.map */
