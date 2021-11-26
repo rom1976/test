@@ -1,6 +1,6 @@
 {
   "homepage": "https://rom1976.github.io/test",
-  "name": "demobackup",
+  "name": "test",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
